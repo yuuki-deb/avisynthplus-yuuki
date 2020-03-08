@@ -1,0 +1,26 @@
+Source: avisynthplus
+Section: libs
+Priority: optional
+Maintainer: Xinyue Lu <i@7086.in>
+Bugs: https://github.com/yuuki-deb/avisynthplus-yuuki/issues
+Homepage: http://avs-plus.net/
+Rules-Requires-Root: no
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12)
+
+Package: avisynthplus-yuuki
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Provides: avisynthplus
+Conflicts: avisynthplus
+Description: AviSynth+ frameserver
+ AviSynth+ is an improved version of the AviSynth frameserver, with improved features and developer friendliness.
+
+Package: avisynthplus-yuuki-dev
+Architecture: any
+Section: libdevel
+Depends: ${misc:Depends}, avisynthplus-yuuki (= ${binary:Version}), pkg-config
+Provides: avisynthplus-dev
+Conflicts: avisynthplus-dev
+Description: AviSynth+ frameserver - development files
+ AviSynth+ is an improved version of the AviSynth frameserver, with improved features and developer friendliness.
