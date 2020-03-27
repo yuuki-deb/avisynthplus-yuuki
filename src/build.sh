@@ -3,7 +3,7 @@
 distributions="${@:-buster}"
 reg='_(.*)\+'
 os_cache_date=$(date +%Y-%W)
-git_tag=${git_tag:-76706d0}
+git_tag=${git_tag:-7972290}
 rev=${rev:-1}
 
 echo OS Cache: $os_cache_date
