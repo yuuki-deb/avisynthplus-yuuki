@@ -11,7 +11,7 @@ WORKDIR /build/
 SHELL ["/bin/bash", "-c"]
 ARG os
 ARG git_tag
-RUN git clone https://github.com/AviSynth/AviSynthPlus.git avs --depth 50 &&\
+RUN git clone https://github.com/AviSynth/AviSynthPlus.git avs &&\
     cd avs &&\
     git checkout $git_tag
 
