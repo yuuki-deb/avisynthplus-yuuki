@@ -4,7 +4,7 @@ FROM buildpack-deps:$os
 ARG os_cache_date
 RUN apt-get update &&\
     apt-get upgrade -y &&\
-    apt-get install -y debhelper devscripts po-debconf dpkg-dev cmake &&\
+    apt-get install -y debhelper devscripts po-debconf dpkg-dev meson python3-sphinx cmake &&\
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /build/

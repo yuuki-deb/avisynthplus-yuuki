@@ -1,3 +1,9 @@
+avisynthplus (3.5.1-1) unstable; urgency=medium
+
+  * New upstream
+
+ -- Xinyue Lu <i@7086.in>  Fri, 03 Apr 2020 00:00:00 -0500
+
 avisynthplus (3.5.0-1~20200327) unstable; urgency=medium
 
   * New upstream
@@ -8,4 +14,4 @@ avisynthplus (3.5.0-1~20200307) unstable; urgency=medium
 
   * Initial release
 
- -- Xinyue Lu <i@7086.in>  Fri, 07 Mar 2020 00:00:00 -0500
+ -- Xinyue Lu <i@7086.in>  Fri, 06 Mar 2020 00:00:00 -0500
